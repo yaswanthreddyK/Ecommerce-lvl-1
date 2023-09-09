@@ -1,0 +1,19 @@
+
+
+.cart-section{
+    margin-top: 8em;
+    padding: 0 1em 1em;
+}
+
+.buy-now{
+
+    padding: 0.5em;
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    border: 0px;
+    border-radius: 4px;
+    margin: 1em 0;
+    cursor: pointer;
+}

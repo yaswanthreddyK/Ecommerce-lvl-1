@@ -1,0 +1,34 @@
+#cat{
+  margin-top: 9em;
+}
+
+#cat > div{
+    margin: 0.5em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+}
+
+#cat article{
+  margin-bottom: 1em;
+}
+
+#cat article img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+#cat a{
+  text-decoration: none;
+  color: black;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}

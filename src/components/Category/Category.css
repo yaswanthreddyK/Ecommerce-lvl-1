@@ -1,0 +1,30 @@
+.category{
+    margin: 8em 1em 1em 1em;
+    
+}
+
+.category > div{
+    margin-top: 3em;
+    width: 100%;    
+    text-align: center;
+}
+
+
+.product-image{
+  width: 100%;
+  height: 130px;
+  margin-bottom: 1em;
+}
+
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product {
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0 0 3px -2px black;
+    margin-bottom: 2em;
+} 

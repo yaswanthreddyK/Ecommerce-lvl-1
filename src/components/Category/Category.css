@@ -28,3 +28,15 @@
     box-shadow: 0 0 3px -2px black;
     margin-bottom: 2em;
 } 
+
+.filters{
+    margin-top: 1em;
+  display: flex;
+ flex-direction: column;
+ gap: 0.5em;
+ 
+}
+
+.filters input{
+    margin-right: 0.5em;
+}

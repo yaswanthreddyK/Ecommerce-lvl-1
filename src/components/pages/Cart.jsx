@@ -7,6 +7,7 @@ import CartItem from "./CartItem"
 
 export default function Cart(){
     const { cart, setCart } = useCartContext()
+    
     let totalItems = 0;
     let totalCost = 0;
     cart.forEach(p=>{
@@ -32,7 +33,7 @@ export default function Cart(){
        <div className="checkout">
         <p style={{fontWeight:"500"}}>Total Items: {totalItems}</p>
         <p style={{fontWeight:"500"}}>Total Cost: $ {totalCost.toFixed(2)}</p>
-        <button className="buy-now">Buy Now</button>
+        <button disabled={true} className="buy-now">Buy Now</button>
        </div>
       </section>
     )

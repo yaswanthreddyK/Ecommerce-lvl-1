@@ -78,7 +78,7 @@ export default function Category() {
         <label htmlFor="popularity">
           <input
             type="radio"
-            name="filter"
+            name="filter" 
             id="popularity"
             value="popularity"
           />
